@@ -1,0 +1,83 @@
+# General
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE - VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - Others
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+coverage.json # From Hardhat
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# OS Specific
+._*
+[Tt]humbs.db
+
+# Environment variables - IMPORTANT
+# These patterns will ignore .env files in ANY subdirectory as well
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Node / JavaScript / TypeScript common
+node_modules/
+jspm_packages/
+typings/ # Old TS definition files
+*.tsbuildinfo # TypeScript build info
+
+# Hardhat specific (applied if found within smart-contracts/ or any subfolder)
+smart-contracts/node_modules/
+smart-contracts/cache/
+smart-contracts/artifacts/
+smart-contracts/typechain-types/ # Usually auto-generated, can be committed if preferred by team
+# If you want to commit typechain-types, remove the line above
+
+# Backend specific (will apply if found within backend/ or any subfolder)
+backend/node_modules/
+backend/dist/ # Compiled TypeScript output for backend
+
+# If you create other specific project folders like 'frontend', add their ignores:
+# frontend/node_modules/
+# frontend/build/
+# frontend/.next/ (for Next.js)
+# frontend/out/ (for Next.js static export)
+smart-contracts/.env
