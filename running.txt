@@ -1,18 +1,19 @@
+git clone https://github.com/Shahbaaz017/loyalty_blockchain_system
 1.open terminal and run the following commands
-cd CoffeeBrewCustomer
+cd blockchain_CoffeBrew
 cd backend
 npm i
 npm start
 2. open another terminal and run the following commands
-cd CoffeeBrewCustomer
+cd blockchain_CoffeBrew
 cd frontend
 npm i
 npm run dev
 3. open another terminal and run the following commands
-cd CoffeeBrewAdmin
+cd blockchain_coffeebrew_admin
 npm i
 npm run dev
 4.  open another terminal and run the following commands
-cd LoyaltyPointsSuperAdmin
+cd superadmin
 npm i
 npm run dev
